@@ -1,0 +1,98 @@
+html,body{
+	height: 100%;
+}
+
+.wrapper{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	/*top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+/*浮动风格*/
+
+
+.wrapper > div{
+	float: left;
+	width: 100px;
+	height: 100px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+	border: 1px solid white;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.wrapper .top{
+	margin: 0 100px;
+	background: black;
+}
+
+.wrapper .left{
+	background: green;
+}
+
+.wrapper .middle{
+	border-radius: 50%;
+	background: gray url('../img/test.jpeg') no-repeat center;
+	background-size: 50px 50px;
+
+}
+
+.wrapper .right{
+	background: blue;
+}
+
+.wrapper .bottom{
+	margin-left: 100px;
+	background: yellow;
+}
+
+
+/* 绝对定位方式
+.wrapper > div{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+
+.wrapper .top{
+	top: 0;
+	left: 100px;
+	background: black;
+}
+
+.wrapper .left{
+	top: 100px;
+	background: green;
+}
+
+.wrapper .middle{
+	top: 100px;
+	left: 100px;
+	border-radius: 50%;
+	background: gray url('../img/test.jpeg') no-repeat center;
+	background-size: 50px 50px;
+
+}
+
+.wrapper .right{
+	top: 100px;
+	right: 0;
+	background: blue;
+}
+
+.wrapper .bottom{
+	bottom: 0;
+	left: 100px;
+	background: yellow;
+}*/
